@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
+![Sea Monster Crowdfunding](path-to-your-gif.gif)
 
 <img src='https://imgur.com/a/uTuwurE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
