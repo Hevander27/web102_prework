@@ -24,6 +24,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+[Watch the video](Screen%20Recording%20-%20Jan%2026%2C%202025-VEED.mp4)
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
