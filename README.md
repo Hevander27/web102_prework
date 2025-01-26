@@ -19,7 +19,8 @@ The following **optional** features are implemented:
 
 * [X] List anything else that you can get done to improve the app functionality!
     - [X] Search bar and functionality
-    - [X] Funding status pop-up over card  
+    - [X] Funding status pop-up over card
+    - [X] Loading animation
 
 ## Video Walkthrough
 
