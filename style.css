@@ -7,6 +7,7 @@ body {
 
 #tentacles {
     width: 50px;
+    height: auto;
 }
 
 .header {
@@ -21,14 +22,17 @@ body {
 
 .stats-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
-    padding: 1%;
-    margin: 1%;
-    width: 100%;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
     text-align: center;
 }
 
@@ -55,12 +59,26 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
-}
-
-.game-card:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
-}
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  .game-card:hover {
+    transform: translateY(-5px);
+  }
+  .game-details {
+    display: none;
+    padding: 10px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 7px 7px;
+  }
+  .game-card:hover .game-details {
+    display: block;
+  }
 
 #button-container {
     text-align: center;
@@ -73,3 +91,30 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #search-input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+button:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.loading {
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+  }
